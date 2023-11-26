@@ -18,22 +18,21 @@ export function HeroSectionFour() {
           <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover  "></span>
           <Typography
             variant="h3"
-            color="Black"
-            className="mb-4 !leading-tight lg:text-7xl z-20"
+            color="white"
+            className="mb-4 !leading-tight lg:text-5xl z-20"
           >
-            Autonomous Retail
+           leverage computer vision and AI to facilitate anonymous shopping experiences.
           </Typography>
           <Typography
             variant="lead"
-            color="Black"
+            color="white"
             className="mb-12 w-full opacity-50 md:w-10/12 lg:w-7/12 mx-auto px-28 z-10"
           >
-            We&apos;re constantly trying to e
           </Typography>
           <div className="w-auto mx-auto">
             <div className="flex items-center">
               <Button size="lg" color="blue" className="w-full px-4 z-10">
-               Our Technology
+               Learn More
               </Button>
             </div>
           </div>
