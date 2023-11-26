@@ -29,7 +29,7 @@ export function HeroPresentation() {
                 variant="small"
                 className="flex items-center font-bold uppercase"
               >
-                Astro Starter Template
+                I am so handsome
               </Typography>
             </div>
             <Typography

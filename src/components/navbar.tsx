@@ -180,8 +180,8 @@ function AccountListMenu() {
 // nav list menu
 const navListMenuItems = [
   {
-    title: "About Us",
-    href: "/astro-launch-ui/about"
+    title: "Service",
+    href: "/about"
   },
   {
     title: "Landing Page",
