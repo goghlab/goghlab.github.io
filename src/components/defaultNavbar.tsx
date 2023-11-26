@@ -188,7 +188,7 @@ function NavList() {
         as="a"
         href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-launch-ui/"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="font-normal"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4">
@@ -215,7 +215,7 @@ export default function Example() {
       <Navbar className="absolute mx-auto left-0 right-0 top-3 max-w-screen-xl px-4 py-2 z-10">
         <div className="flex items-center justify-between text-black">
         <img
-  src="/public/eilogo.png"
+  src="/eilogo.png"
   alt="Logo"
   className="mr-4 cursor-pointer py-1.5 lg:ml-2"
   width="140"  // Adjust the width to your desired size
