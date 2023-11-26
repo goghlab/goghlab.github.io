@@ -6,8 +6,8 @@ module.exports = withMT({
     extend: {
       colors: {
         blue: {
-          DEFAULT: "#3066FF",
-          500: "#3066FF",
+          DEFAULT: "#0B99FF",
+          500: "#0B99FF",
         },
         yellow: {
           DEFAULT: "#F19937",
@@ -31,7 +31,7 @@ module.exports = withMT({
         },
         dark: {
           DEFAULT: "#1E293B",
-          500: "#0F172A",
+          500: "#1E293B",
         },
       },
     },

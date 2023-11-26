@@ -15,40 +15,24 @@ export function ContentSectionOne() {
               people are controlled by! They&apos;re slowed down by{" "}
               <a
                 href="#"
-                className="underline underline-offset-4 transition-colors hover:text-blue-500"
+                className="underline underlinez-offset-4 transition-colors hover:text-blue-500"
               >
-                their perception of themselves
+
               </a>
               . If you&apos;re taught you can&apos;t do anything, you won&apos;t
               do anything. I was taught I could do everything.
               <br />
-              <br />
-              The time is now for it to be okay to be great. For being a bright
-              color. For standing out. But the time is now to be okay to{" "}
-              <a
-                href="#"
-                className="underline underline-offset-4 transition-colors hover:text-blue-500"
-              >
-                be the greatest you
-              </a>
-              . Would you believe in what you believe in, if you were the only one
-              who believed it?
-              <br />
-              <br />
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+
             </Typography>
             <div className="inline-flex flex-wrap gap-3">
-              <Button variant="outlined" color="dark" size="lg">
+              <Button variant="outlined" size="lg">
                 get in touch
               </Button>
-              <Button color="dark" size="lg">our process</Button>
+              <Button variant="outlined" size="lg">our process</Button>
             </div>
           </div>
           <img
-            src="https://images.unsplash.com/photo-1680285251132-e1c238bf5e75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+            src="000.png"
             alt="team work"
             className="max-h-[50vh] w-full rounded-xl object-cover object-center md:max-h-[75vh]"
           />

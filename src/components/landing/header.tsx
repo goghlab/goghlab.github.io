@@ -21,7 +21,7 @@ export function HeroSectionTwo() {
           </Typography>
           <Typography
   variant="lead"
-  color="grey"
+
   className="mb-7 w-full opacity-40 md:w-10/12 lg:w-10/12 mx-auto px-8 z-10 text-12"
 >
   "Next-Gen Autonomous Solutions: Paving the Way for a Smarter and More Efficient Future."
@@ -29,7 +29,7 @@ export function HeroSectionTwo() {
           <div className="w-auto mx-auto">
             <div className="flex items-center">
             <Button size="lg" className="w-full z-10" style={{ backgroundColor: '#198FFF' }}>
-  Show new arrival
+  Request A Demo
 </Button>
 
             </div>

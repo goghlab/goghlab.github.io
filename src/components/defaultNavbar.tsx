@@ -38,11 +38,11 @@ const colors = {
 // account pages menu
 const accountItems = [
   {
-    title: "Login",
+    title: "about",
     href: "/astro-launch-ui/login"
   },
   {
-    title: "Sign Up",
+    title: "FAQ",
     href: "/astro-launch-ui/signup"
   }
 ];
@@ -58,7 +58,7 @@ function AccountListMenu() {
   const renderItems = accountItems.map(({ title, href }) => (
     <a href={href} key={title}>
       <MenuItem>
-        <Typography variant="paragraph" color="blue-gray" className="mb-1 font-normal">
+        <Typography variant="paragraph" color="black" className="mb-1 font-normal">
           {title}
         </Typography>
       </MenuItem>
@@ -72,9 +72,9 @@ function AccountListMenu() {
           <Typography as="a" href="#" variant="small" className="font-normal outline-none focus:outline-none">
             <MenuItem
               {...triggers}
-              className="hidden items-center gap-2 text-blue-gray-900 lg:flex lg:rounded-full"
+              className="hidden items-center gap-2 text-black lg:flex lg:rounded-full"
             >
-              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Account{" "}
+              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> More{" "}
               <ChevronDownIcon
                 strokeWidth={2}
                 className={`h-3 w-3 transition-transform ${
@@ -134,7 +134,7 @@ function NavListMenu() {
   const renderItems = navListMenuItems.map(({ title, href }) => (
     <a href={href} key={title}>
       <MenuItem>
-        <Typography variant="paragraph" color="blue-gray" className="mb-1 font-normal">
+        <Typography variant="paragraph" color="black" className="mb-1 font-normal">
           {title}
         </Typography>
       </MenuItem>
@@ -186,7 +186,7 @@ function NavList() {
       <AccountListMenu />
       <Typography
         as="a"
-        href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-launch-ui/"
+        href="/astro-launch-ui/404"
         variant="small"
         color="black"
         className="font-normal"
@@ -215,24 +215,24 @@ export default function Example() {
       <Navbar className="absolute mx-auto left-0 right-0 top-3 max-w-screen-xl px-4 py-2 z-10">
         <div className="flex items-center justify-between text-black">
         <img
-  src="/eilogo.png"
-  alt="Logo"
-  className="mr-4 cursor-pointer py-1.5 lg:ml-2"
-  width="140"  // Adjust the width to your desired size
-  height="140" // Adjust the height to your desired size
+          src="public/eilogo.png"
+          alt="Logo"
+          className="mr-4 cursor-pointer py-1.5 lg:ml-2"
+          width="140"
+          height="140"
 />
           <div className="hidden lg:block">
             <NavList />
           </div>
           <div className="hidden gap-2 lg:flex">
             <a href="./login">
-              <Button variant="text" size="sm" color="blue-gray">
-                Sign In
+              <Button variant="text" size="sm">
+                Company
               </Button>
             </a>
             <a href="/astro-launch-ui/signup">
-              <Button size="sm" color="dark">
-                Sign Up
+            <Button size="sm" variant="outlined" style={{ backgroundColor: "#E3E3E3", color: "black" }}>
+                Request A Demo
               </Button>
             </a>
           </div>
@@ -251,18 +251,6 @@ export default function Example() {
         </div>
         <Collapse open={openNav}>
           <NavList />
-          <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-            <a href="/astro-launch-ui/login">
-              <Button variant="outlined" size="sm" color="dark" fullWidth>
-                Sign In
-              </Button>
-            </a>
-            <a href="/astro-launch-ui/signup">
-              <Button size="sm" fullWidth color="dark">
-                Sign Up
-              </Button>
-            </a>
-          </div>
         </Collapse>
       </Navbar>
     </ThemeProvider>
