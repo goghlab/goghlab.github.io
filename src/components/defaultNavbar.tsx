@@ -106,15 +106,19 @@ function AccountListMenu() {
 // nav list menu
 const navListMenuItems = [
   {
-    title: "About Us",
-    href: "/astro-launch-ui/about"
+    title: "EI AUTOSHOP",
+    href: "/astro-launch-ui/404"
   },
   {
-    title: "Landing Page",
-    href: "/astro-launch-ui/landing"
+    title: "EI CART",
+    href: "/astro-launch-ui/404"
   },
   {
-    title: "404",
+    title: "EI SHELVE",
+    href: "/astro-launch-ui/404"
+  },
+  {
+    title: "EI BOX",
     href: "/astro-launch-ui/404"
   }
 ];
@@ -146,7 +150,7 @@ function NavListMenu() {
               {...triggers}
               className="hidden items-center gap-2 text-blue-gray-900 lg:flex lg:rounded-full"
             >
-              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Pages{" "}
+              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Solutions{" "}
               <ChevronDownIcon
                 strokeWidth={2}
                 className={`h-3 w-3 transition-transform ${
@@ -166,7 +170,7 @@ function NavListMenu() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Pages{" "}
+        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> SOLUTIONS{" "}
       </MenuItem>
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}
@@ -189,7 +193,7 @@ function NavList() {
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4">
           <CubeTransparentIcon className="h-[18px] w-[18px]" />
-          Docs
+          Technology
         </ListItem>
       </Typography>
     </List>
@@ -209,15 +213,14 @@ export default function Example() {
   return (
     <ThemeProvider>
       <Navbar className="absolute mx-auto left-0 right-0 top-3 max-w-screen-xl px-4 py-2 z-10">
-        <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a"
-            href="/astro-launch-ui/"
-            variant="h6"
-            className="mr-4 cursor-pointer py-1.5 lg:ml-2"
-          >
-            AstroLaunch UI
-          </Typography>
+        <div className="flex items-center justify-between text-black">
+        <img
+  src="/public/eilogo.png"
+  alt="Logo"
+  className="mr-4 cursor-pointer py-1.5 lg:ml-2"
+  width="140"  // Adjust the width to your desired size
+  height="140" // Adjust the height to your desired size
+/>
           <div className="hidden lg:block">
             <NavList />
           </div>
