@@ -37,7 +37,7 @@ export function FooterTwo() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h4" className="mb-6">
-            AstroLaunch UI
+            Everything Inteligence
           </Typography>
           <div className="grid grid-cols-3 justify-between gap-4">
             {links.map(({ title, items }) => (
@@ -68,15 +68,14 @@ export function FooterTwo() {
         <div className="mt-16 flex flex-wrap items-end justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
           <div className="text-center md:text-start">
             <Typography variant="h4" color="blue-gray" className="mb-2">
-              Move faster with AstroLaunch UI
+              Everything Inteligene  . Innovate Shopping
             </Typography>
-            <Typography color="gray" className="font-normal">
-              Save countless hours of design and ship great looking designs
-              faster.
+            <Typography color="gray" className="font-normal"> 
+             "Transforming the retail experience through innovative technologies, our vision is to pioneer and elevate shopping by seamlessly integrating cutting-edge solutions, artificial intelligence, and data-driven insights to create personalized, efficient, and delightful consumer journeys."
             </Typography>
           </div>
           <Typography color="gray" className="text-center font-normal">
-            &copy; {currentYear} Creative Tim, All rights reserved.
+            &copy; {currentYear} Everything Inteligence 2023 All Right Reserved.
           </Typography>
         </div>
       </div>

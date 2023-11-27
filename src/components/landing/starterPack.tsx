@@ -8,21 +8,10 @@ export function ContentSectionOne() {
         <div className="container mx-auto grid items-center lg:grid-cols-2">
           <div className="row-start-2 mt-12 lg:row-auto lg:mt-0 lg:pr-12">
             <Typography variant="h2" color="blue-gray" className="mb-6">
-              Basic Starter Pack
+             AI-driven technology monitors and analyzes customer behavior in real-time
             </Typography>
             <Typography variant="lead" color="gray" className="mb-12">
-              I always felt like I could do anything. That&apos;s the main thing
-              people are controlled by! They&apos;re slowed down by{" "}
-              <a
-                href="#"
-                className="underline underlinez-offset-4 transition-colors hover:text-blue-500"
-              >
-
-              </a>
-              . If you&apos;re taught you can&apos;t do anything, you won&apos;t
-              do anything. I was taught I could do everything.
-              <br />
-
+            Everything Intelligence utilizes computer vision and AI technologies to monitor and analyze customer in-store behavior and metrics. This enables our retail clients to easily access and track crucial information, facilitating efficient monitoring of their stores.
             </Typography>
             <div className="inline-flex flex-wrap gap-3">
               <Button variant="outlined" size="lg">

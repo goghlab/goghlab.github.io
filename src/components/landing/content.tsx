@@ -17,7 +17,7 @@ export function HeroSectionFour() {
 >
           <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover  "></span>
           <Typography
-            variant="h3"
+            variant="h5"
             color="white"
             className="mb-4 !leading-tight lg:text-5xl z-20"
           >

@@ -3,12 +3,11 @@ export default function Footer() {
     <>
       <footer className="border-top p-4">
         <div className="copyright text-center text-sm text-muted">
-          All rights reserved. Copyright
+          EI. Everything Inteligence 2023 All rights reserved. Copyright
           © <script>
             document.write(new Date().getFullYear()) 
           </script>
-          &nbsp;AstroLaunch UI by
-          <a href="https://www.creative-tim.com" className="text-secondary ms-1" target="_blank">Creative Tim</a>.
+          <a href="xxx" className="text-secondary ms-1" target="_blank">EI. Everything Inteligence</a>.
         </div>
       </footer>
     </>
