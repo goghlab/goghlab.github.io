@@ -2,14 +2,12 @@ import { Typography } from "@material-tailwind/react";
 
 const links = [
   {
-    title: "Product",
+    title: "Solutions",
     items: [
-      "Overview",
-      "Features",
-      "Solutions",
-      "Tutorials",
-      "Pricing",
-      "Releases",
+      "EI-AUTOSHOP",
+      "EI-VENDING",
+      "EI-SHELVE",
+      "EI-BOX",
     ],
   },
   {
