@@ -1,3 +1,12 @@
+---
+export interface Props {
+  title: string;
+  metaDescription?: string;
+}
+
+const { title, metaDescription } = Astro.props;
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,10 +17,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700"
       rel="stylesheet"
     />
-    <title> Everything Intelligence</title>
+    <title>{title} Everything Inteligence</title>
     <meta name="description" content={metaDescription} />
     <meta name="generator" content={Astro.generator} />
-    <link rel="canonical" href="https://www.everything-intelligence.com/" />
+    <link rel="canonical" href="https://www.everything-inteligence.com/" />
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -34,8 +43,8 @@
         src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
         height="0"
         width="0"
-        style="display:none;visibility:hidden"
-      ></iframe>
+        style="display:none;visibility:hidden">
+      </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <slot />
