@@ -1,10 +1,13 @@
-// script.js
-
-// Get the element by tag name
-var bodyElement = document.querySelector('body');
+// Get the element by ID
+var offerCard = document.getElementById('offerCard');
 
 // Check if the element exists before modifying it
-if (bodyElement) {
-  // Remove the 'overflow-x-hidden' class
-  bodyElement.classList.remove('overflow-x-hidden');
+if (offerCard) {
+  // Remove the 'active' class
+  offerCard.classList.remove('active');
+
+  // Disable other actions or modify the element further as needed
+  // For example, you can set the element to be hidden
+  // offerCard.style.display = 'none';
 }
+

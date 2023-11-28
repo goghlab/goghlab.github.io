@@ -9,61 +9,48 @@ const { title, metaDescription } = Astro.props;
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700"
-      rel="stylesheet"
-    />
-    <title>{title} Everything Inteligence</title>
-    <meta name="description" content={metaDescription} />
-    <meta name="generator" content={Astro.generator} />
-    <link rel="canonical" href="https://www.everything-inteligence.com/" />
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-NKDMSK6");
-    </script>
-    <!-- End Google Tag Manager -->
-  </head>
-  <body class="overflow-x-hidden">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden">
-      </iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <slot />
-    <script>
-      // Get the element by ID
-      var offerCard = document.getElementById('offerCard');
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700" rel="stylesheet" />
+  <title>{title} Everything Intelligence</title>
+  <meta name="description" content={metaDescription} />
+  <meta name="generator" content={Astro.generator} />
+  <link rel="canonical" href="https://www.everything-intelligence.com/" />
 
-      // Check if the element exists before modifying it
-      if (offerCard) {
-        // Remove the 'active' class
-        offerCard.classList.remove('active');
-      }
-    </script>
-  </body>
-  <script
-    src="https://kit.fontawesome.com/349ee9c857.js"
-    crossOrigin="anonymous"
-  ></script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-NKDMSK6");
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+<body class="overflow-x-hidden">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <slot />
+  <script src="/script.js" defer></script>
+  <script src="https://kit.fontawesome.com/349ee9c857.js" crossOrigin="anonymous"></script>
+</body>
 </html>
+
 <style is:global>
   code {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
