@@ -1,3 +1,12 @@
+---
+export interface Props {
+  title: string;
+  metaDescription?: string;
+}
+
+const { title, metaDescription } = Astro.props;
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
