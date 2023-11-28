@@ -1,3 +1,12 @@
+---
+export interface Props {
+  title: string;
+  metaDescription?: string;
+}
+
+const { title, metaDescription } = Astro.props;
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,10 +17,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700"
       rel="stylesheet"
     />
-    <title> Everything Intelligence</title>
+    <title>{title} Everything Inteligence</title>
     <meta name="description" content={metaDescription} />
     <meta name="generator" content={Astro.generator} />
-    <link rel="canonical" href="https://www.everything-intelligence.com/" />
+    <link rel="canonical" href="https://www.everything-inteligence.com/" />
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -28,27 +37,18 @@
     <!-- End Google Tag Manager -->
   </head>
   <body class="overflow-x-hidden">
+<script src="/path/to/script.js"></script>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe
         src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
         height="0"
         width="0"
-        style="display:none;visibility:hidden"
-      ></iframe>
+        style="display:none;visibility:hidden">
+      </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <slot />
-    <script>
-      // Get the element by ID
-      var offerCard = document.getElementById('offerCard');
-
-      // Check if the element exists before modifying it
-      if (offerCard) {
-        // Remove the 'active' class
-        offerCard.classList.remove('active');
-      }
-    </script>
   </body>
   <script
     src="https://kit.fontawesome.com/349ee9c857.js"
