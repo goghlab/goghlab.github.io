@@ -112,11 +112,11 @@ function ProfileMenu() {
 // account pages menu
 const accountItems = [
   {
-    title: "Login",
+    title: "About",
     href: "/astro-launch-ui/login"
   },
   {
-    title: "Sign Up",
+    title: "FAQ",
     href: "/astro-launch-ui/signup"
   }
 ];
@@ -148,7 +148,7 @@ function AccountListMenu() {
               {...triggers}
               className="hidden items-center gap-2 text-blue-gray-900 lg:flex lg:rounded-full"
             >
-              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Account{" "}
+              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> More{" "}
               <ChevronDownIcon
                 strokeWidth={2}
                 className={`h-3 w-3 transition-transform ${
@@ -168,7 +168,7 @@ function AccountListMenu() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Account{" "}
+        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> More{" "}
       </MenuItem>
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}
@@ -180,15 +180,19 @@ function AccountListMenu() {
 // nav list menu
 const navListMenuItems = [
   {
-    title: "Service",
+    title: "EI AUTOSHOP",
     href: "/about"
   },
   {
-    title: "Landing Page",
+    title: "EI CART",
     href: "/astro-launch-ui/landing"
   },
   {
-    title: "404",
+    title: "EI SHELVE",
+    href: "/astro-launch-ui/404"
+  },
+  {
+    title: "EI BOX",
     href: "/astro-launch-ui/404"
   },
 ];
@@ -220,7 +224,7 @@ function NavListMenu() {
               {...triggers}
               className="hidden items-center gap-2 text-blue-gray-900 lg:flex lg:rounded-full"
             >
-              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Pages{" "}
+              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Service{" "}
               <ChevronDownIcon
                 strokeWidth={2}
                 className={`h-3 w-3 transition-transform ${
@@ -240,7 +244,7 @@ function NavListMenu() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Pages{" "}
+        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Service{" "}
       </MenuItem>
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}
@@ -318,13 +322,13 @@ export default function ComplexNavbar() {
       }`}
     >
       <div className="relative mx-auto flex items-center text-blue-gray-900">
-        <Typography
-          as="a"
-          href="/"
-          className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
-        >
-          AstroLaunch UI
-        </Typography>
+      <a href="/">
+  <img
+    src="/eilogo.png" // Assuming that the image is in the public directory
+    alt="EI Logo"
+    className="mr-4 ml-2 cursor-pointer py-1.5 w-[150px]" // Adjust the width in pixels as needed
+  />
+</a>
         <div className="hidden lg:flex ml-auto">
           <NavList />
         </div>
@@ -337,19 +341,6 @@ export default function ComplexNavbar() {
         >
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
-        <a href="https://discord.gg/WCvQWMwT" target="_blank">
-          <Button size="sm"  variant="text">
-            <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
-          </Button>
-        </a>
-        <a href="https://github.com/creativetimofficial/astro-launch-ui" target="_blank">
-          <Button size="sm" variant="outlined" >
-            <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
-          </Button>
-        </a>
-        <a href="/astro-launch-ui/#examplePages">
-          <Button variant="outlined">Get started</Button>
-        </a>
       </div>
       <Collapse open={isNavOpen} className="overflow-scroll">
         <NavList />

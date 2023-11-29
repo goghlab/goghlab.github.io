@@ -107,19 +107,19 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "EI AUTOSHOP",
-    href: "/astro-launch-ui/404"
+    href: "/autoshop"  
   },
   {
     title: "EI CART",
-    href: "/astro-launch-ui/404"
+    href: "/cart" 
   },
   {
     title: "EI SHELVE",
-    href: "/astro-launch-ui/404"
+    href: "/shelve" 
   },
   {
     title: "EI BOX",
-    href: "/astro-launch-ui/404"
+    href: "/box" 
   }
 ];
  
