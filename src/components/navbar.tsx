@@ -65,7 +65,7 @@ function ProfileMenu() {
             variant="circular"
             size="sm"
             alt="Tania Andrew"
-            className="border border-gray-300 p-0.5"
+            className="border border-white-300 p-0.5"
             src="https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=986&q=80"
           />
           <ChevronDownIcon
@@ -318,16 +318,17 @@ export default function ComplexNavbar() {
   return (
     <Navbar
       className={`sticky inset-0 z-10 mx-auto max-w-screen-2xl p-2 lg:pl-6 mt-4 transition-shadow ${
-        shouldShowBorder ? "border-b border-gray-300 shadow-none" : ""
+        shouldShowBorder ? "border-b border-white-300 shadow-none" : ""
       }`}
     >
       <div className="relative mx-auto flex items-center text-blue-gray-900">
       <a href="/">
-  <img
-    src="/eilogo.png" // Assuming that the image is in the public directory
-    alt="EI Logo"
-    className="mr-4 ml-2 cursor-pointer py-1.5 w-[150px]" // Adjust the width in pixels as needed
-  />
+      <img
+  src="/eilogo.png" // Assuming that the image is in the public directory
+  alt="EI Logo"
+  className="mr-4 ml-2 cursor-pointer py-1.5 w-28" // Adjust the width as needed
+/>
+
 </a>
         <div className="hidden lg:flex ml-auto">
           <NavList />

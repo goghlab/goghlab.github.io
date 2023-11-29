@@ -10,13 +10,13 @@ export function TestimonialSectionTwo() {
       <div className="container mx-auto">
         <Card
           shadow={false}
-          className="overflow-hidden rounded-3xl !bg-blue-gray-900"
+          className="overflow-hidden rounded-3xl !bg-black"
         >
           <CardBody className="flex flex-col-reverse gap-16 py-20 px-14 lg:flex-row">
             <div>
               <img
-                src="logos/logo-spotify.svg"
-                alt="spotify"
+                src="852.png"
+                alt="852"
                 className="mb-8 w-36"
               />
               <Typography
@@ -34,18 +34,18 @@ export function TestimonialSectionTwo() {
                 color="white"
                 className="font-medium"
               >
-                Marcela Glock
+                Micheal
               </Typography>
               <Typography
                 color="white"
                 className="font-normal opacity-70"
               >
-                Chief Executive, Spotify
+                Chief Executive, 852
               </Typography>
             </div>
             <div className="relative mx-auto grid shrink-0 place-items-center lg:ml-auto">
               <img
-                src="avatars/avatar6.jpg"
+                src="852shop.png"
                 alt="testimonial image"
                 className="h-80 w-80 rounded-full object-cover"
               />
