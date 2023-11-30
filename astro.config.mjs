@@ -12,6 +12,7 @@ export default defineConfig({
   routes: [
     { src: '/about', dest: '/src/pages/about.astro' },
     { src: '/landing', dest: '/src/pages/landing.astro' },
+    { src: '/autoshop', dest: '/src/pages/autoshop.astro' },  // Add this line
     { src: '/', dest: '/src/pages/index.astro' },
     // ... other routes
   ],
