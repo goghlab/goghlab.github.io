@@ -19,15 +19,15 @@ export function HeroSectionTwo() {
       >
         <div className="container mx-auto grid items-center lg:grid-cols-2">
           <div className="text-center lg:text-left">
-            <div className="mb-8 inline-flex items-center rounded-lg border border-dark/30 py-1 pl-1 pr-3">
+            <div className="mb-8 inline-flex items-center rounded-lg border border-white/30 py-1 pl-1 pr-3">
               <Typography
                 variant="small"
-                className="mr-3 rounded-md bg-black py-0.5 px-3 font-medium text-white"
+                className="mr-3 rounded-md bg-white py-0.5 px-3 font-medium text-black"
               >
                 New
               </Typography>
               <Typography
-                color="black"
+                color="white"
                 variant="small"
                 className="flex items-center font-semibold"
               >
@@ -40,13 +40,13 @@ export function HeroSectionTwo() {
             </div>
             <Typography
               variant="h1"
-              color="black"
+              color="white"
               className="mb-8 leading-tight lg:text-6xl"
             >
-              AUTOSHOP
+              EI AutoShop
             </Typography>
-            <Typography variant="lead" className="lg:pr-20 text-black-800">
-              Frictionless Shopping Experience
+            <Typography variant="lead" className="lg:pr-20 text-white">
+              Frictionless Shopping Solution
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <Button color="blue" className="flex items-center">
