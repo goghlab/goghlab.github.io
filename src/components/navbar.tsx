@@ -313,21 +313,19 @@ export default function ComplexNavbar() {
  
   return (
     <Navbar
-      className={`sticky inset-0 z-10 mx-auto max-w-screen-2xl p-2 lg:pl-6 mt-4 transition-shadow ${
-        shouldShowBorder ? "border-b border-gray-300 shadow-none" : ""
-      }`}
-    >
-      <div className="relative mx-auto flex items-center text-blue-gray-900">
-        <Typography
-          as="a"
-          href="/"
-          className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
-        >
-          AstroLaunch UI
-        </Typography>
-        <div className="hidden lg:flex ml-auto">
-          <NavList />
-        </div>
+  className={`sticky inset-0 z-10 mx-auto max-w-screen-2xl p-2 lg:pl-6 mt-4 transition-shadow ${
+    shouldShowBorder ? "border-b border-gray-300 shadow-none" : ""
+  }`}
+>
+  <div className="relative mx-auto flex items-center text-blue-gray-900">
+    <img
+      src="eilogo.png" 
+      alt="Everything Intelligence Logo"
+      className="mr-4 ml-2 cursor-pointer py-1.5 h-12" 
+    />
+    <div className="hidden lg:flex ml-auto">
+      <NavList />
+    </div>
         <IconButton
           size="sm"
           color="blue-gray"
