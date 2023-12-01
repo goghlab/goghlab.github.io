@@ -10,19 +10,21 @@ export function HeroSectionTwo() {
     <ThemeProvider>
       <Navbar />
       <header className="h-screen min-h-screen w-screen bg-white">
-        <div className="relative h-screen flex align-center flex-col justify-center text-center bg-cover" style={{backgroundImage: `url('/bg.png')`}}>
+      <div className="relative h-screen flex align-center flex-col justify-center text-center bg-cover" style={{backgroundImage: `url('/bg.png')`}}>
+         <div className="absolute inset-0 bg-gray-500 opacity-60"></div>
           <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover"></span>
           <Typography
             variant="h1"
-            color="black"
-            className="mb-4 opacity-80 !leading-tight lg:text-3xl z-0"
+            color="white"
+            className="mb-4 opacity-100 !leading-tight lg:text-10xl z-0"
           >
-            Autonomous Meets Innovation
+            Autonomous 
+            Meets
+            Innovation
           </Typography>
           <Typography
   variant="lead"
-
-  className="mb-7 w-full opacity-40 md:w-10/12 lg:w-10/12 mx-auto px-6 z-8 text-"
+  className="mb-10 w-full opacity-100 md:w-12/12 lg:w-10/12 mx-auto px-10 z-10 text-black"
 >
   Next-Gen Autonomous Retail Solutions
 </Typography>
