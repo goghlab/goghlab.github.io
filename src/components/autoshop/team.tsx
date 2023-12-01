@@ -32,15 +32,6 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
         {desc}
       </Typography>
       <div className="flex items-center">
-        <IconButton variant="text" color="light-blue">
-          <i className="fa-brands fa-twitter text-lg not-italic" />
-        </IconButton>
-        <IconButton variant="text" color="blue">
-          <i className="fa-brands fa-linkedin text-lg not-italic" />
-        </IconButton>
-        <IconButton variant="text" color="pink">
-          <i className="fa-brands fa-dribbble text-lg not-italic" />
-        </IconButton>
       </div>
     </Card>
   );
@@ -48,10 +39,28 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
 
 const members = [
   {
+    "img": "/realtimestore.png",
+    "name": "Fully Automated Store",
+    "title": "Secure your store",
+    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
+  },
+  {
+    "img": "/dashboard.png",
+    "name": "All-in-one platform",
+    "title": "Secure your store",
+    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
+  },
+  {
     "img": "/facedetect.png",
     "name": "Face Detection",
     "title": "Secure your store",
-    "desc": "Today you are you! That is truer than true! There is no one alive!"
+    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
+  },
+  {
+    "img": "/kiosk.png",
+    "name": "Integrated Platform ",
+    "title": "Secure your store",
+    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
   },
 ];
 
@@ -61,10 +70,10 @@ export function TeamSectionOne() {
       <div className="container mx-auto">
         <div className="mb-24 text-center">
           <Typography color="dark" className="mb-2 !font-semibold text-lg">
-            Our Team
+            We leverage the latest 
           </Typography>
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            You are into a great company
+            AI. Computer Vision technology
           </Typography>
           <Typography
             variant="lead"
