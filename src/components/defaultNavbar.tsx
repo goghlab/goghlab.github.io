@@ -39,11 +39,11 @@ const colors = {
 const accountItems = [
   {
     title: "about",
-    href: "/astro-launch-ui/login"
+    href: "/presentation"
   },
   {
     title: "FAQ",
-    href: "/astro-launch-ui/signup"
+    href: "/astro-launch-ui/faq"
   }
 ];
 
@@ -107,7 +107,7 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "EI AUTOSHOP",
-    href: "/astro-launch-ui/404"
+    href: "/autoshop"
   },
   {
     title: "EI CART",
