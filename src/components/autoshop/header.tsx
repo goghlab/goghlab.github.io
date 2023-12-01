@@ -60,9 +60,6 @@ export function HeroSectionTwo() {
               </Button>
             </div>
           </div>
-          <div className="hidden lg:flex">
-            <img src="/bg.png" alt="background" className="max-w-md" />
-          </div>
         </div>
       </header>
     </ThemeProvider>

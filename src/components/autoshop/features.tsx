@@ -42,9 +42,9 @@ function FeatureCard({ icon, title, children }: FeatureCardProps) {
 const features = [
   {
     icon: <EyeIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "24 Hours Easy Monitor",
+    title: "Integrated Surveillance Solutions: E.I. Omni-Monitor",
     description:
-      "For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one",
+      "Elevate your store effortlessly with Everything Intelligence. Seamlessly monitor online and offline activities through integrated platforms, ensuring total visibility for informed decisions round the clock.",
   },
   {
     icon: (
@@ -52,7 +52,7 @@ const features = [
     ),
     title: "Support 24/7",
     description:
-      "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others.",
+      "Everything Intelligence provides relentless 24/7 support, prioritizing our retail partners' success with swift issue resolution and unwavering dedication to their needs.",
   },
   {
     icon: <BoltIcon className="h-6 w-6" strokeWidth={2} />,
@@ -62,9 +62,9 @@ const features = [
   },
   {
     icon: <FaceSmileIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Payments functionality",
+    title: "Effortless Checkout Experience: Auto-Pay Solutions",
     description:
-      "Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
+      "Streamline your shopping journey with Automated Order Payments. Exit the store hassle-free as your bill generates automatically, reflecting our commitment to seamless transactions and convenience.",
   },
   {
     icon: <LinkIcon className="h-6 w-6" strokeWidth={2} />,
@@ -83,19 +83,19 @@ const features = [
 export function FeatureSectionOne() {
   return (
     <section className="py-28 px-4">
+    
+    <Typography variant="h2" color="blue-gray" className="mb-4 text-center">
+          Features
+        </Typography>
       <div className="container mx-auto mb-20 text-center">
         <Typography color="dark" className="mb-2 font-bold text-lg">
-          Social Analytics
-        </Typography>
-        <Typography variant="h2" color="blue-gray" className="mb-4">
-          Turn your idea into a startup
+          E.I.AutoShop: The Ultimate Frictionless Shopping Solution
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 text-blue-gray-800 md:w-10/12 lg:w-7/12 lg:px-8"
         >
-          We&apos;re constantly trying to express ourselves and actualize our
-          dreams. If you have the opportunity to play
+          Streamline your purchase with our frictionless checkout: swift, secure transactions, minimizing delays, ensuring a seamless, hassle-free shopping experience for all.
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-20 md:grid-cols-2 lg:grid-cols-3">
