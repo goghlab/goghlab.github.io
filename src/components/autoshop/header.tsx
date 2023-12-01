@@ -61,7 +61,7 @@ export function HeroSectionTwo() {
             </div>
           </div>
           <div className="hidden lg:flex">
-            <img src="bg.png" alt="background" className="max-w-md" />
+            <img src="/bg.png" alt="background" className="max-w-md" />
           </div>
         </div>
       </header>
