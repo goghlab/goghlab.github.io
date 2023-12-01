@@ -48,28 +48,10 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
 
 const members = [
   {
-    img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhbSUyMG1lbWJlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-    name: "Tina Andrew",
-    title: "Founder & CEO",
-    desc: "Today you are you! That is truer than true! There is no one alive!",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
-    name: "Phoenix Baker",
-    title: "Engineering Manager",
-    desc: "And I love you like Kanye loves Kanye. We need to restart that.",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
-    name: "Lana Steiner",
-    title: "Product Manager",
-    desc: "Artist is a term applied to a person who engages in an activity",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
-    name: "Demi Wilkinson",
-    title: "Fronted Developer",
-    desc: "Success is not final, failure is not fatal: it is the courage to continue",
+    "img": "facedetect.png",
+    "name": "Face Detection",
+    "title": "Secure your store",
+    "desc": "Today you are you! That is truer than true! There is no one alive!"
   },
 ];
 
