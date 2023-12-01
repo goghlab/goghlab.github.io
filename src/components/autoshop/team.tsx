@@ -48,7 +48,7 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
 
 const members = [
   {
-    "img": "facedetect.png",
+    "img": "/facedetect.png",
     "name": "Face Detection",
     "title": "Secure your store",
     "desc": "Today you are you! That is truer than true! There is no one alive!"
