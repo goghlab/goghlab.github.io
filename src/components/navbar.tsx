@@ -319,7 +319,7 @@ export default function ComplexNavbar() {
 >
   <div className="relative mx-auto flex items-center text-blue-gray-900">
      <img
-          src="bg.png"
+          src="eilogo.png"
           alt="Logo"
           className="mr-4 cursor-pointer py-1.5 lg:ml-2"
           width="140"
