@@ -10,10 +10,10 @@ export function HeroSectionTwo() {
     <ThemeProvider>
       <Navbar />
       <header className="h-screen min-h-screen w-screen bg-white">
-        <div className="relative h-screen flex align-center flex-col justify-center text-center bg-cover" style={{backgroundImage: `url('123.png')`}}>
+        <div className="relative h-screen flex align-center flex-col justify-center text-center bg-cover" style={{backgroundImage: `url('/bg.png')`}}>
           <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover"></span>
           <Typography
-            variant="h2"
+            variant="h1"
             color="black"
             className="mb-4 opacity-80 !leading-tight lg:text-3xl z-0"
           >

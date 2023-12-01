@@ -42,7 +42,7 @@ function FeatureCard({ icon, title, children }: FeatureCardProps) {
 const features = [
   {
     icon: <EyeIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Check our team",
+    title: "24 Hours Easy Monitor",
     description:
       "For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one",
   },
@@ -68,13 +68,13 @@ const features = [
   },
   {
     icon: <LinkIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Improved platform",
+    title: "Integrated solution",
     description:
       "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire other people to follow their dreams, too.",
   },
   {
     icon: <HeartIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Prebuilt components",
+    title: "Faster Checkout",
     description:
       "We're an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
   },
