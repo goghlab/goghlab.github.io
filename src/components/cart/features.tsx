@@ -24,7 +24,7 @@ function FeatureCard({ icon, title, children }: FeatureCardProps) {
         </div>
         <Typography
           variant="h5"
-          color="blue-gray"
+          color="grey"
           className="mb-2 !font-semibold"
         >
           {title}
