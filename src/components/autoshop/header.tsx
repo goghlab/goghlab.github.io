@@ -30,7 +30,7 @@ export function HeroSectionTwo() {
                 variant="small"
                 className="mr-3 rounded-md bg-white py-0.5 px-3 font-medium text-black"
               >
-                EI
+                E.I.
               </Typography>
               <Typography
                 color="white"
@@ -49,7 +49,7 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              EI-AutoShop
+              E.I.-AutoShop
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-white">
               "Seamless Shopping: Effortlessly Transforming Desires into Delivered Pleasures."

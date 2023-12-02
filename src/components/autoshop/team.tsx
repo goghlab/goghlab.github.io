@@ -22,13 +22,13 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
           className="h-full w-full object-cover object-top"
         />
       </CardHeader>
-      <Typography variant="h4" color="blue-gray" className="mb-1">
+      <Typography variant="h4" color="black" className="mb-1">
         {name}
       </Typography>
-      <Typography color="gray" className="mb-3 font-normal">
+      <Typography color="black" className="mb-3 font-normal">
         {title}
       </Typography>
-      <Typography color="gray" className="mb-4 font-normal">
+      <Typography color="black" className="mb-4 font-normal">
         {desc}
       </Typography>
       <div className="flex items-center">
@@ -45,6 +45,12 @@ const members = [
     "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
   },
   {
+    "img": "/QRcode.png",
+    "name": "Easy Entrance with QR Code",
+    "title": "Easily Accessable APP with QR Code Entrance",
+    "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
+  },
+  {
     "img": "/dashboard.png",
     "name": "All-in-one platform",
     "title": "Secure your store",
@@ -55,12 +61,6 @@ const members = [
     "name": "Face Detection",
     "title": "Secure your store",
     "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
-  },
-  {
-    "img": "/kiosk.png",
-    "name": "Holistic retail automation ",
-    "title": "Secure your store",
-    "desc": "We deliver a holistic retail automation solution, seamlessly integrating technology for efficient inventory management, point-of-sale, and customer engagement, elevating operational excellence and customer satisfaction"
   },
 ];
 
