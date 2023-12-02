@@ -23,11 +23,11 @@ export function HeroSectionTwo() {
             Innovation
           </Typography>
           <Typography
-            variant="lead"
-            className="mb-10 w-full opacity-100 md:w-12/12 lg:w-10/12 mx-auto px-10 z-10 text-black"
-          >
-            ⚡ Next-Gen Autonomous Retail Solutions 
-          </Typography>
+  variant="lead"
+  className="mb-10 w-full opacity-50 md:w-12/12 lg:w-10/12 mx-auto px-10 z-10 text-grey font-bold"
+>
+  ⚡ Next-Gen Autonomous Retail Solutions 
+</Typography>
           <div className="w-auto mx-auto">
             <div className="flex items-center">
               <Button size="lg" className="w-full z-10" style={{ backgroundColor: '#198FFF' }}>

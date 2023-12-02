@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Card,
   CardHeader,
@@ -10,8 +11,9 @@ interface CategoriesCardPropsType {
   category: string;
 }
 
-function CategoriesCard({ img, category }: CategoriesCardPropsType) {
+function CategoriesCard({ img, category, href }: CategoriesCardPropsType) {
   return (
+    <a href={href} className="text-decoration-none">
     <Card
       shadow={false}
       className="relative grid h-[25rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
@@ -19,11 +21,11 @@ function CategoriesCard({ img, category }: CategoriesCardPropsType) {
       <CardHeader
         floated={false}
         shadow={false}
-        color="transparent"
+        color="blue"
         className="absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center"
         style={{ backgroundImage: `url(${img})` }}
       >
-        <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/30 via-black/0" />
+        <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/40 via-white/0" />
       </CardHeader>
       <CardBody className="relative py-14 px-6 md:px-12">
         <Typography
@@ -35,6 +37,7 @@ function CategoriesCard({ img, category }: CategoriesCardPropsType) {
         </Typography>
       </CardBody>
     </Card>
+  </a>
   );
 }
 
@@ -42,18 +45,22 @@ const categories = [
   {
     img: "/ei-autoshop.png",
     category: "EI-AutoShop",
+    href: "/autoshop",
   },
   {
     img: "ei-vending.png",
     category: "EI-Vending",
+    href: "/vending",
   },
   {
     img: "ei-shelve.png",
     category: "EI-Shelve",
+    href: "/Shelve",
   },
   {
     img: "/ei-box.png",
     category: "EI-Box",
+    href: "/box",
   },
 ];
 
