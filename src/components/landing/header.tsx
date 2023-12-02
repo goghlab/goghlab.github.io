@@ -3,7 +3,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
-import Navbar from "../defaultNavbar";
+import Navbar from "../navbar";
 
 export function HeroSectionTwo() {
   return (
