@@ -42,13 +42,13 @@ const members = [
     "img": "/realtimestore.png",
     "name": "Fully Automated Store",
     "title": "Secure your store",
-    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
+    "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
   },
   {
     "img": "/dashboard.png",
     "name": "All-in-one platform",
     "title": "Secure your store",
-    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
+    "desc": "User-friendly 24/7 store monitoring through an intuitive dashboard, ensuring ease of use for comprehensive oversight and timely decision-making"
   },
   {
     "img": "/facedetect.png",
@@ -58,9 +58,9 @@ const members = [
   },
   {
     "img": "/kiosk.png",
-    "name": "Integrated Platform ",
+    "name": "Holistic retail automation ",
     "title": "Secure your store",
-    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
+    "desc": "We deliver a holistic retail automation solution, seamlessly integrating technology for efficient inventory management, point-of-sale, and customer engagement, elevating operational excellence and customer satisfaction"
   },
 ];
 

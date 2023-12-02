@@ -41,19 +41,19 @@ function CategoriesCard({ img, category }: CategoriesCardPropsType) {
 const categories = [
   {
     img: "/ei-autoshop.png",
-    category: "EI-AUTOSHOP",
+    category: "EI-AutoShop",
   },
   {
     img: "ei-vending.png",
-    category: "EI-VENDING",
+    category: "EI-Vending",
   },
   {
     img: "ei-shelve.png",
-    category: "EI-SHELVE",
+    category: "EI-Shelve",
   },
   {
     img: "/ei-box.png",
-    category: "EI-BOX",
+    category: "EI-Box",
   },
 ];
 

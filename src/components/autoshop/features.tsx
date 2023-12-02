@@ -56,9 +56,9 @@ const features = [
   },
   {
     icon: <BoltIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Unlimited revisions",
+    title: "Light Speed Checkout",
     description:
-      "We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love.",
+      "Autoshop's solution offers a frictionless checkout, ensuring light-speed transactions, eliminating queues, and optimizing efficiency for a seamless and swift shopping experience",
   },
   {
     icon: <FaceSmileIcon className="h-6 w-6" strokeWidth={2} />,
@@ -74,9 +74,9 @@ const features = [
   },
   {
     icon: <HeartIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Faster Checkout",
+    title: "Efficient Retail Automation",
     description:
-      "We're an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
+      "Our Autoshop solution captivates partners with seamless automation, boosting efficiency, cutting costs, and enhancing customer satisfaction for unparalleled retail success.",
   },
 ];
 

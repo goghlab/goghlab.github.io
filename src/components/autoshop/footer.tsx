@@ -2,7 +2,7 @@ import { Typography, Input, Button } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 
 
-const links = ["Overview", "Features", "Pricing", "Careers", "Help", "Privacy"];
+const links = [ "Pricing", "Careers", "Help", "Privacy"];
 const links2 = ["Terms", "Privacy", "Cookies"];
 const currentYear = new Date().getFullYear();
 
@@ -14,7 +14,7 @@ export function FooterOne() {
           <div className="flex flex-wrap items-end justify-center gap-8 md:justify-between">
             <div className="text-center md:text-left">
               <Typography variant="h4" className="mb-6">
-                AstroLaunch UI
+                Everything Inteligence
               </Typography>
               <ul className="flex flex-wrap items-center justify-center md:justify-start">
                 {links.map((link, idx) => (
@@ -45,7 +45,7 @@ export function FooterOne() {
           </div>
           <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
             <Typography color="gray" className="text-center font-normal">
-              &copy; {currentYear} Material Tailwind, All rights reserved.
+              &copy; {currentYear} Everything Inteligence, All rights reserved.
             </Typography>
 
             <ul className="flex items-center">
