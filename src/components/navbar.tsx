@@ -113,11 +113,11 @@ function ProfileMenu() {
 const accountItems = [
   {
     title: "about EI",
-    href: "/astro-launch-ui/login"
+    href: "/about"
   },
   {
     title: "FAQ",
-    href: "/astro-launch-ui/signup"
+    href: "/faq"
   }
 ];
 
@@ -185,15 +185,15 @@ const navListMenuItems = [
   },
   {
     title: "E.I.-Cart",
-    href: "/astro-launch-ui/landing"
+    href: "/cart"
   },
   {
     title: "E.I.-Shelve",
-    href: "/astro-launch-ui/404"
+    href: "/vending"
   },
   {
     title: "E.I.-Box",
-    href: "/astro-launch-ui/404"
+    href: "/box"
   },
 ];
  

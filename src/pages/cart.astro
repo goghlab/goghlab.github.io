@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from "../../public/data.json";
+import HeaderAbout from "../components/cart/header"
+import FeaturesAbout from "../components/cart/features"
+import TeamAbout from "../components/cart/team"
+import TestimonialAbout from "../components/cart/testimonials"
+import FooterAbout from "../components/cart/footer"
+---
+
+
+<Layout title="EI Cart Page">
+	<main>
+    <HeaderAbout client:only="react" />
+ {/* <TeamAbout client:only="react" /> */}
+    {/* <FeaturesAbout client:only="react" /> */}
+    {/* <TestimonialAbout client:only="react" /> */}
+     <FooterAbout client:only="react" /> */}
+  </main>
+</Layout>

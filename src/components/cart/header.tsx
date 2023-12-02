@@ -18,11 +18,9 @@ export function HeroSectionTwo() {
         <div
           className="h-full w-full absolute top-0 left-0 bg-cover bg-center filter brightness-50"
           style={{
-            backgroundImage: 'url("/bkbg.png")', // Corrected path to your background image
-          }} 
+            backgroundImage: 'url("/cart.png")', // Corrected path to your background image
+          }}
         />
-         <div
-  />
 
         {/* Existing content */}
         <div className="container mx-auto grid items-center lg:grid-cols-2 relative z-10">
@@ -39,7 +37,7 @@ export function HeroSectionTwo() {
                 variant="small"
                 className="!flex !items-center !font-semibold"
               >
-                Advance Retail Automation Solution
+                AI. Powered Smart Cart
                 <ArrowSmallRightIcon
                   className="ml-1.5 h-4 w-4"
                   strokeWidth={3}
@@ -51,14 +49,14 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              E.I.-AutoShop
+              E.I.-Cart
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-white">
-              "Seamless Shopping: Effortlessly Transforming Desires into Delivered Pleasures."
+              "Make in-store shopping seamless and personalized."
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <Button color="blue" className="flex items-center">
-                User Log In
+                Comming Soon...
               </Button>
             </div>
           </div>
