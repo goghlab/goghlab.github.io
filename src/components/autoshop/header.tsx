@@ -18,7 +18,7 @@ export function HeroSectionTwo() {
         <div
           className="h-full w-full absolute top-0 left-0 bg-cover bg-center filter brightness-50"
           style={{
-            backgroundImage: 'url("/ei-autoshop.png")', // Corrected path to your background image
+            backgroundImage: 'url("/bg-billing.jpg")', // Corrected path to your background image
           }} 
         />
          <div
@@ -51,7 +51,7 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              E.I.-AutoShop 🛍️ 
+              E.I.-AutoShop 
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-white">
               "Seamless Shopping: Effortlessly Transforming Desires into Delivered Pleasures."

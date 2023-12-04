@@ -111,14 +111,6 @@ function ProfileMenu() {
  
 // account pages menu
 const accountItems = [
-  {
-    title: "about EI",
-    href: "/about"
-  },
-  {
-    title: "FAQ",
-    href: "/faq"
-  }
 ];
 
 function AccountListMenu() {
@@ -142,22 +134,7 @@ function AccountListMenu() {
   return (
     <React.Fragment>
       <Menu open={isMenuOpen} handler={setIsMenuOpen}>
-        <MenuHandler>
-          <Typography as="a" href="#" variant="small" className="font-normal outline-none focus:outline-none">
-            <MenuItem
-              {...triggers}
-              className="hidden items-center gap-2 text-blue-gray-900 lg:flex lg:rounded-full"
-            >
-              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> More{" "}
-              <ChevronDownIcon
-                strokeWidth={2}
-                className={`h-3 w-3 transition-transform ${
-                  isMenuOpen ? "rotate-180" : ""
-                }`}
-              />
-            </MenuItem>
-          </Typography>
-        </MenuHandler>
+  
         <MenuList
           {...triggers}
           className="hidden grid-cols-7 gap-3 overflow-visible lg:grid"
@@ -167,9 +144,7 @@ function AccountListMenu() {
           </ul>
         </MenuList>
       </Menu>
-      <MenuItem className="flex items-center gap-2 text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> More{" "}
-      </MenuItem>
+
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}
       </ul>
@@ -186,10 +161,6 @@ const navListMenuItems = [
   {
     title: "E.I.-Box",
     href: "/box"
-  },
-  {
-    title: "E.I.-Vending",
-    href: "/vending"
   },
 ];
  

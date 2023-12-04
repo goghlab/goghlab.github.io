@@ -18,7 +18,7 @@ export function HeroSectionTwo() {
         <div
           className="h-full w-full absolute top-0 left-0 bg-cover bg-center filter brightness-50"
           style={{
-            backgroundImage: 'url("/ei-box.png")', // Corrected path to your background image
+            backgroundImage: 'url("/boxbg.png")', // Corrected path to your background image
           }}
         />
 
@@ -49,7 +49,7 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              E.I.-box 🦾
+              E.I.-box 
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-white">
               "Next Gen AI Powered Vending Machine."

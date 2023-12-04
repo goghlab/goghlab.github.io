@@ -5,24 +5,17 @@ const links = [
     title: "Solutions",
     items: [
       "EI-AUTOSHOP",
-      "EI-VENDING",
-      "EI-SHELVE",
       "EI-BOX",
     ],
   },
   {
     title: "Company",
-    items: ["About us", "Careers", "Press", "News", "Media kit", "Contact"],
+    items: ["About us", "Contact"],
   },
   {
     title: "Resource",
     items: [
-      "Blog",
-      "Newsletter",
-      "Events",
       "Help center",
-      "Tutorials",
-      "Support",
     ],
   },
 ];

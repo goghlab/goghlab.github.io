@@ -52,11 +52,6 @@ const categories = [
     category: "EI-Box",
     href: "/box",
   },
-  {
-    img: "ei-vending.png",
-    category: "EI-Vending",
-    href: "/vending",
-  },
 ];
 
 export function TeamSectionOne() {
