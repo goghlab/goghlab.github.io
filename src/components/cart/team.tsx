@@ -39,28 +39,10 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
 
 const members = [
   {
-    "img": "/realtimestore.png",
+    "img": "/cart01.png",
     "name": "Fully Automated Store",
     "title": "Secure your store",
     "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
-  },
-  {
-    "img": "/QRcode.png",
-    "name": "Easy Entrance with QR Code",
-    "title": "Easily Accessable APP with QR Code Entrance",
-    "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
-  },
-  {
-    "img": "/dashboard.png",
-    "name": "All-in-one platform",
-    "title": "Secure your store",
-    "desc": "User-friendly 24/7 store monitoring through an intuitive dashboard, ensuring ease of use for comprehensive oversight and timely decision-making"
-  },
-  {
-    "img": "/facedetect.png",
-    "name": "Face Detection",
-    "title": "Secure your store",
-    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
   },
 ];
 
