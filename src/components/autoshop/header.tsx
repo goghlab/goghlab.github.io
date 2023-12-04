@@ -18,7 +18,7 @@ export function HeroSectionTwo() {
         <div
           className="h-full w-full absolute top-0 left-0 bg-cover bg-center filter brightness-50"
           style={{
-            backgroundImage: 'url("/bg-billing.jpg")', // Corrected path to your background image
+            backgroundImage: 'url("/bg-billing.png")', // Corrected path to your background image
           }} 
         />
          <div
