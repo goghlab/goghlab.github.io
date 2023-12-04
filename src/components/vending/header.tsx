@@ -49,10 +49,10 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              E.I.-Vending
+              E.I.-Vending 🗄️
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-white">
-              "Make in-store shopping seamless and personalized."
+              "Next Gen AI Powered Vending Machine."
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <Button color="blue" className="flex items-center">

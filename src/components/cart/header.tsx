@@ -49,7 +49,7 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              E.I.-Cart
+               E.I.-Cart 🛒
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-white">
               "Make in-store shopping seamless and personalized."

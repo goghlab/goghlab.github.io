@@ -51,7 +51,7 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              E.I.-AutoShop
+              E.I.-AutoShop 🛍️ 
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-white">
               "Seamless Shopping: Effortlessly Transforming Desires into Delivered Pleasures."
