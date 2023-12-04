@@ -48,19 +48,14 @@ const categories = [
     href: "/autoshop",
   },
   {
-    img: "ei-vending.png",
-    category: "EI-Vending",
-    href: "/vending",
-  },
-  {
-    img: "ei-shelve.png",
-    category: "EI-Shelve",
-    href: "/Shelve",
-  },
-  {
     img: "/ei-box.png",
     category: "EI-Box",
     href: "/box",
+  },
+  {
+    img: "ei-vending.png",
+    category: "EI-Vending",
+    href: "/vending",
   },
 ];
 

@@ -184,20 +184,12 @@ const navListMenuItems = [
     href: "/autoshop"
   },
   {
-    title: "E.I.-Cart",
-    href: "/cart"
-  },
-  {
-    title: "E.I.-Vending",
-    href: "/vending"
-  },
-  {
     title: "E.I.-Box",
     href: "/box"
   },
   {
-    title: "E.I.-Shelve",
-    href: "/Shelve"
+    title: "E.I.-Vending",
+    href: "/vending"
   },
 ];
  

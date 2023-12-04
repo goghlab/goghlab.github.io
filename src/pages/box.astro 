@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from "../../public/data.json";
+import HeaderAbout from "../components/box/header"
+import FeaturesAbout from "../components/vending/features"
+import TeamAbout from "../components/vending/team"
+import TestimonialAbout from "../components/vending/testimonials"
+import FooterAbout from "../components/vending/footer"
+---
+
+
+<Layout title="EI box Page">
+	<main>
+    <HeaderAbout client:only="react" />
+    {/* <TeamAbout client:only="react" /> */}
+    {/* <FeaturesAbout client:only="react" /> */}
+    {/* <TestimonialAbout client:only="react" /> */}
+    {/*<FooterAbout client:only="react" /> */}
+  </main>
+</Layout>
