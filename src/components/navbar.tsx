@@ -188,12 +188,16 @@ const navListMenuItems = [
     href: "/cart"
   },
   {
-    title: "E.I.-Shelve",
+    title: "E.I.-Vending",
     href: "/vending"
   },
   {
     title: "E.I.-Box",
     href: "/box"
+  },
+  {
+    title: "E.I.-Shelve",
+    href: "/Shelve"
   },
 ];
  
@@ -271,7 +275,7 @@ function NavList() {
         <Typography
           key={label}
           as="a"
-          href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-launch-ui/"
+          href="/landing"
           variant="small"
           color="blue-gray"
           className="font-normal"
