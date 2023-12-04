@@ -4,8 +4,8 @@ const links = [
   {
     title: "Solutions",
     items: [
-      "EI-AUTOSHOP",
-      "EI-BOX",
+      "AutoShop",
+      "Box",
     ],
   },
   {
