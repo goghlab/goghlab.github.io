@@ -40,14 +40,14 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
 const members = [
   {
     "img": "/box.png",
-    "name": "Grid System",
-    "title": "Secure your store",
-    "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
+    "name": "Grid Vending Boxes",
+    "title": "Movable Grid Vending System",
+    "desc": "Experience a fully automated Vending System"
   },
   {
     "img": "/box2.png",
-    "name": "Grid System",
-    "title": "Secure your store",
+    "name": "Smart Delivery Bot",
+    "title": "Delivery Bot Integration",
     "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
   },
 ];
