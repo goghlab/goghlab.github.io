@@ -310,8 +310,8 @@ export default function ComplexNavbar() {
         >
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
-        <a href="/astro-launch-ui/#examplePages">
-          <Button variant="outlined">Request Demo</Button>
+        <a href="https://wa.link/xbzr1f">
+        <Button variant="outlined">Request Demo</Button>
         </a>
       </div>
       <Collapse open={isNavOpen} className="overflow-scroll">
