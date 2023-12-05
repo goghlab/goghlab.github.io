@@ -1,20 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import data from "../../public/data.json";
-import HeaderAbout from "../components/autoshop/header"
-import FeaturesAbout from "../components/autoshop/features"
-import TeamAbout from "../components/autoshop//team"
-import TestimonialAbout from "../components/autoshop//testimonials"
-import FooterAbout from "../components/autoshop/footer"
+import HeaderAutoshop from "../components/autoshop/header"
+import FeaturesAutoshop from "../components/autoshop/features"
+import TeamAutoshop from "../components/autoshop//team"
+import TestimonialAutoshop from "../components/autoshop//testimonials"
+import FooterAutoshop from "../components/autoshop/footer"
 ---
 
 
-<Layout title="About Us Page">
+<Layout title="EI Autoshop">
 	<main>
-    <HeaderAbout client:only="react" />
-    <TeamAbout client:only="react" />
-    <FeaturesAbout client:only="react" />
-    <TestimonialAbout client:only="react" />
-    <FooterAbout client:only="react" />
+    <HeaderAutoshop client:only="react" />
+    <TeamAutoshop client:only="react" />
+    <FeaturesAutoshop client:only="react" />
+    <TestimonialAutoshop client:only="react" />
+    <FooterAutoshop client:only="react" />
   </main>
 </Layout>
