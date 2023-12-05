@@ -58,17 +58,16 @@ export function TeamSectionOne() {
       <div className="container mx-auto">
         <div className="mb-24 text-center">
           <Typography color="dark" className="mb-2 !font-semibold text-lg">
-            We leverage the latest 
+            We leverage the latest AI. Robotic Technology
           </Typography>
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            AI. Computer Vision technology
+            Smart Grid Vending boxes
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto lg:w-8/12 lg:px-20 text-blue-gray-800"
           >
-            This is the paragraph where you can write more details about your
-            team. Keep you user engaged by providing meaningful information.
+            
           </Typography>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
