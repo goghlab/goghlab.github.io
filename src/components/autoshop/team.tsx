@@ -39,7 +39,7 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
 
 const members = [
   {
-    "img": "/realtimestore.png",
+    "img": "/autoshop01.png",
     "name": "Fully Automated Store",
     "title": "Secure your store",
     "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
