@@ -3,18 +3,29 @@ import { Button, Typography } from '@material-tailwind/react';
 import ThemeProvider from '../theme-provider';
 import Navbar from '../navbar';
 
+
 export function HeroSectionTwo() {
   return (
     <ThemeProvider>
       <Navbar />
-      <header className="h-screen min-h-screen w-screen bg-white">
-        <div className="relative h-screen flex align-center flex-col justify-center text-center bg-cover" style={{ backgroundImage: `url('/bg.png')` }}>
-          <div className="absolute inset-0 bg-gray-200 opacity-70"></div>
-          <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover"></span>
+      <header className="h-screen min-h-screen w-screen bg-white relative">
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/ei.mp4" type="video/mp4" />
+          {/* Add additional source elements for other video formats if needed */}
+          Your browser does not support the video tag.
+        </video>
+        <div className="absolute inset-0 bg-gray-200 opacity-70"></div>
+        <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover"></span>
+        <div className="flex flex-col items-center justify-center h-screen text-center">
           <Typography
             variant="h2"
             color="black"
-            className="mb-4 opacity-100 !leading-tight lg:text-10xl z-0"
+            className="mb-4 opacity-100 leading-tight lg:text-10xl z-0"
           >
             Autonomous
             Meets
