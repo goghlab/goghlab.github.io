@@ -35,16 +35,19 @@ export function HeroSectionFour() {
             className="mb-12 w-full opacity-50 md:w-10/12 lg:w-7/12 mx-auto px-28 z-10"
           >
           </Typography>
+          <a href="/autoshop">
           <div className="w-auto mx-auto">
             <div className="flex items-center">
             <Button
-             size="lg" color=""
-             className="w-full px-4 z-10 border border-white text-white hover:bg-white hover:text-blue"
-            >
-             Learn More
-            </Button>
+             size="lg"
+             color="transparent"
+             className="w-50 max-w-md px-4 mx-auto z-10 border border-white text-white hover:bg-white hover:text-blue"
+             >
+               Learn More
+             </Button>
             </div>
           </div>
+          </a>
         </div>
       </header>
     </ThemeProvider>
