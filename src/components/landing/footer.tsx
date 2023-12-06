@@ -10,11 +10,10 @@ const links = [
   },
   {
     title: "Company",
-    items: ["About us", "Contact"],
-  },
-  {
-    title: "Resource",
-    items: ["Help center"],
+    items: [
+      { name: "About Us", link: "/autoshop" },
+      { name: "Career", link: "/box" },
+    ],
   },
 ];
 

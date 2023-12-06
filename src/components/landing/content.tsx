@@ -38,12 +38,11 @@ export function HeroSectionFour() {
           <div className="w-auto mx-auto">
             <div className="flex items-center">
             <Button
-  size="lg"
-  color=""
-  className="w-full px-4 z-10 border border-white text-white hover:bg-white hover:text-blue"
->
-  Learn More
-</Button>
+             size="lg" color=""
+             className="w-full px-4 z-10 border border-white text-white hover:bg-white hover:text-blue"
+            >
+             Learn More
+            </Button>
             </div>
           </div>
         </div>

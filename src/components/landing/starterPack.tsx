@@ -8,16 +8,22 @@ export function ContentSectionOne() {
         <div className="container mx-auto grid items-center lg:grid-cols-2">
           <div className="row-start-2 mt-12 lg:row-auto lg:mt-0 lg:pr-12">
             <Typography variant="h2" color="blue-gray" className="mb-6">
-             AI-driven technology monitors and analyzes customer behavior in real-time
+             EI Autoshop: AI-driven technology monitors and analyzes customer behavior in real-time
             </Typography>
             <Typography variant="lead" color="gray" className="mb-12">
             Everything Intelligence utilizes computer vision and AI technologies to monitor and analyze customer in-store behavior and metrics. This enables our retail clients to easily access and track crucial information, facilitating efficient monitoring of their stores.
             </Typography>
             <div className="inline-flex flex-wrap gap-3">
+              <a href="https://wa.link/xbzr1f">
               <Button variant="outlined" size="lg">
                 get in touch
               </Button>
-              <Button variant="outlined" size="lg">our process</Button>
+              </a>
+              <a href="/process.pdf" download="process.pdf">
+              <Button variant="outlined" size="lg">
+              Our Process
+             </Button>
+             </a>
             </div>
           </div>
           <img
