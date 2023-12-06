@@ -15,7 +15,7 @@ export function HeroSectionTwo() {
           <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover"></span>
           <Typography
             variant="h2"
-            color="black"
+            color=""
             className="mb-4 opacity-100 !leading-tight lg:text-10xl z-0"
           >
             Autonomous 
