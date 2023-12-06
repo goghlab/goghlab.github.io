@@ -3,7 +3,6 @@ import { Button, Typography } from '@material-tailwind/react';
 import ThemeProvider from '../theme-provider';
 import Navbar from '../navbar';
 
-
 export function HeroSectionTwo() {
   return (
     <ThemeProvider>
@@ -13,11 +12,10 @@ export function HeroSectionTwo() {
           autoPlay
           loop
           muted
+          playsInline  // Add playsInline for better mobile compatibility
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/ei.mp4" type="video/mp4" />
-          {/* Add additional source elements for other video formats if needed */}
-          Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-gray-200 opacity-70"></div>
         <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover"></span>
@@ -38,13 +36,13 @@ export function HeroSectionTwo() {
             Next-Gen Autonomous Retail Solutions 
           </Typography>
           <a href="https://wa.link/xbzr1f">
-          <div className="w-auto mx-auto">
-            <div className="flex items-center justify-center"> {/* Updated */}
-                <Button size="lg" className="z-10" style={{ backgroundColor: '#198FFF' }}> {/* Updated */}
+            <div className="w-auto mx-auto">
+              <div className="flex items-center justify-center">
+                <Button size="lg" className="z-10" style={{ backgroundColor: '#198FFF' }}>
                   Contact Sales
                 </Button>
-             </div>
-          </div>
+              </div>
+            </div>
           </a>
         </div>
       </header>

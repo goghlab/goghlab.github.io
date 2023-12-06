@@ -63,7 +63,7 @@ export function FooterTwo() {
             </Typography>
           </div>
           <Typography color="gray" className="text-center font-normal">
-            &copy; {currentYear} Everything Intelligence 2023 All Right Reserved.
+            &copy; {currentYear} Everything Intelligence All Right Reserved.
           </Typography>
         </div>
       </div>
