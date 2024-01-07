@@ -11,8 +11,7 @@ const links = [
   {
     title: "Company",
     items: [
-      { name: "About Us", link: "/autoshop" },
-      { name: "Career", link: "/box" },
+      { name: "Privacy Policy", link: "/privacy" },
     ],
   },
 ];
