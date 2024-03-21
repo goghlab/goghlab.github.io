@@ -25,21 +25,19 @@ export function HeroSectionTwo() {
             color="black"
             className="mb-4 opacity-100 leading-tight lg:text-10xl z-0"
           >
-            Autonomous
-            Meets
-            Innovation
+            創新 AI.自動化：簡單、高效、領先。
           </Typography>
           <Typography
             variant="lead"
             className="mb-10 w-full opacity-100 md:w-12/12 lg:w-10/12 mx-auto px-10 z-10 text-black"
           >
-            Next-Gen Autonomous Retail Solutions 
+            零售/商務自動化智能方案專家
           </Typography>
           <a href="https://wa.link/xbzr1f">
             <div className="w-auto mx-auto">
               <div className="flex items-center justify-center">
                 <Button size="lg" className="z-10" style={{ backgroundColor: '#198FFF' }}>
-                  Contact Sales
+                  聯絡銷售顧問
                 </Button>
               </div>
             </div>

@@ -42,41 +42,35 @@ function FeatureCard({ icon, title, children }: FeatureCardProps) {
 const features = [
   {
     icon: <EyeIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Integrated Surveillance Solutions: E.I. Omni-Monitor",
+    title: "監控解決方案",
     description:
-      "Elevate your store effortlessly with Everything Intelligence. Seamlessly monitor online and offline activities through integrated platforms, ensuring total visibility for informed decisions round the clock.",
+      "通過集成平台無縫監控線上和線下活動，確保全天候的完全可見性，以便做出明智的決策。",
   },
   {
     icon: (
       <ChatBubbleOvalLeftEllipsisIcon className="h-6 w-6" strokeWidth={2} />
     ),
-    title: "Support 24/7",
+    title: "24/7 支援",
     description:
-      "Everything Intelligence provides relentless 24/7 support, prioritizing our retail partners' success with swift issue resolution and unwavering dedication to their needs.",
+      "提供全天候不懈的支援，優先考慮我們的零售合作夥伴成功，迅速解決問題並始終堅持滿足他們的需求。",
   },
   {
     icon: <BoltIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Light Speed Checkout",
+    title: "光速結帳",
     description:
-      "Autoshop's solution offers a frictionless checkout, ensuring light-speed transactions, eliminating queues, and optimizing efficiency for a seamless and swift shopping experience",
-  },
-  {
-    icon: <FaceSmileIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Effortless Checkout Experience: Auto-Pay Solutions",
-    description:
-      "Streamline your shopping journey with Automated Order Payments. Exit the store hassle-free as your bill generates automatically, reflecting our commitment to seamless transactions and convenience.",
+      "Autoshop的解決方案提供無摩擦結帳，確保快速交易，消除排隊，並優化效率，實現無縫迅速的購物體驗。",
   },
   {
     icon: <LinkIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Integrated solution",
+    title: "集成解决方案",
     description:
-      "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire other people to follow their dreams, too.",
+      "集成解決方案簡化客戶店鋪自動化流程，提高效率，減少人力成本，幫助實現自動化零售操作並提升客戶體驗。",
   },
   {
     icon: <HeartIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Efficient Retail Automation",
+    title: "高效零售自動化",
     description:
-      "Our Autoshop solution captivates partners with seamless automation, boosting efficiency, cutting costs, and enhancing customer satisfaction for unparalleled retail success.",
+      "我們的Autoshop解決方案透過無縫自動化吸引合作夥伴，提高效率，降低成本，並提升客戶滿意度，實現無與倫比的零售成功。",
   },
 ];
 
@@ -85,17 +79,17 @@ export function FeatureSectionOne() {
     <section className="py-28 px-4">
     
     <Typography variant="h2" color="blue-gray" className="mb-4 text-center">
-          Features
+          特點
         </Typography>
       <div className="container mx-auto mb-20 text-center">
         <Typography color="dark" className="mb-2 font-bold text-lg">
-          E.I.AutoShop: The Ultimate Frictionless Shopping Solution
+        E.I.AutoShop：終極無摩擦購物解決方案
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 text-blue-gray-800 md:w-10/12 lg:w-7/12 lg:px-8"
         >
-          Streamline your purchase with our frictionless checkout: swift, secure transactions, minimizing delays, ensuring a seamless, hassle-free shopping experience for all.
+          透過我們的無摩擦結帳，簡化您的購物流程：迅速、安全的交易，最小化延誤，確保所有人都能享受無縫、無煩惱的購物體驗。
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-20 md:grid-cols-2 lg:grid-cols-3">

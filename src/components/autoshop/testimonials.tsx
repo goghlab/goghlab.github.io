@@ -24,7 +24,7 @@ export function TestimonialSectionTwo() {
                 color="white"
                 className="mb-10 font-medium leading-normal"
               >
-                852 Convenient Store in Hong Kong expresses gratitude for the transformative impact of Ei-Autoshop. The system's seamless integration reduces costs and provides centralized control. We value the strategic partnership, finding your support invaluable. Thanks for enhancing our efficiency and contributing to our success.
+                852便利店在香港衷心感謝Ei-Autoshop所帶來的變革性影響。該系統的無縫整合降低了成本並提供了集中控制。我們珍視這份戰略合作夥伴關係，感謝您的支持無價。謝謝您提升我們的效率，貢獻於我們的成功。
               </Typography>
               <Typography
                 variant="lead"
@@ -37,7 +37,7 @@ export function TestimonialSectionTwo() {
                 color="white"
                 className="font-normal opacity-70"
               >
-                Chief Executive, 852 Convienient Store HONG KONG
+                Chief Executive, 852 便利店 香港
               </Typography>
             </div>
             <div className="relative mx-auto grid shrink-0 place-items-center lg:ml-auto">

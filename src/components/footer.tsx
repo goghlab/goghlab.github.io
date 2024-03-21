@@ -3,7 +3,7 @@ export default function Footer() {
     <>
       <footer className="border-top p-4">
         <div className="copyright text-center text-sm text-muted">
-          EI. Everything Inteligence 2023 All rights reserved. Copyright
+          Everything Inteligence萬智科技 2024 All rights reserved. Copyright
           © <script>
             document.write(new Date().getFullYear()) 
           </script>

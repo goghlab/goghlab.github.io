@@ -72,7 +72,7 @@ export function TeamSectionOne() {
           <Typography color="dark" className="mb-2 !font-semibold text-lg">
             我們利用最新的 
           </Typography>
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography variant="h3" color="blue-gray" className="mb-4">
             人工智慧。電腦視覺技術
           </Typography>
           <Typography

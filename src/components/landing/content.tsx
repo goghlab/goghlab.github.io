@@ -25,9 +25,9 @@ export function HeroSectionFour() {
             color="white"
             className="mb-4 !leading-tight lg:text-5xl z-20"
           >
-           Leverage AI Computer Vision 
+           利用人工智能計算機視覺
            <br></br>
-           facilitate anonymous shopping experiences.
+           促進智慧購物體驗。
           </Typography>
           <Typography
             variant="lead"
@@ -43,7 +43,7 @@ export function HeroSectionFour() {
              color="transparent"
              className="w-50 max-w-md px-4 mx-auto z-10 border border-white text-white hover:bg-white hover:text-blue"
              >
-               Learn More
+               了解更多
              </Button>
             </div>
           </div>

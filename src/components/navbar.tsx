@@ -155,11 +155,11 @@ function AccountListMenu() {
 // nav list menu
 const navListMenuItems = [
   {
-    title: "E.I.-AutoShop",
+    title: "AutoShop 智能商店",
     href: "/autoshop"
   },
   {
-    title: "E.I.-Box",
+    title: "AutoBox 智能銷售櫃",
     href: "/box"
   },
 ];
@@ -212,7 +212,7 @@ function NavListMenu() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Solutions{" "}
+        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> 解決方案{" "}
       </MenuItem>
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}

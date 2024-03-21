@@ -32,7 +32,7 @@ export function HeroSectionTwo() {
                 variant="small"
                 className="mr-3 rounded-md bg-white py-0.5 px-3 font-medium text-black"
               >
-                Everything Intelligence 萬智科技 
+                 萬智科技 
               </Typography>
               <Typography
                 color="white"
@@ -51,9 +51,9 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              E.I.-AutoShop 人工智能無人商店
+              AutoShop 智能商店
             </Typography>
-            <Typography variant="lead" className="lg:pr-20 text-white">
+            <Typography variant="lead" className="lg:pr-18 text-white">
               "體驗AutoShop的購物未來：無需排隊，自助結帳 - 隨取隨走！."
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">

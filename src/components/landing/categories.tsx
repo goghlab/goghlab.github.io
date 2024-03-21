@@ -44,12 +44,12 @@ function CategoriesCard({ img, category, href }: CategoriesCardPropsType) {
 const categories = [
   {
     img: "/ei-autoshop.png",
-    category: "EI-AutoShop",
+    category: "AutoShop",
     href: "/autoshop",
   },
   {
     img: "/ei-box.png",
-    category: "EI-Box",
+    category: "VendingBox",
     href: "/box",
   },
 ];
@@ -60,12 +60,12 @@ export function TeamSectionOne() {
       <div className="container mx-auto">
         <div className="mb-24 w-1/2">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            E.I. Autonomous Retail Solutions
+           萬智智能零售方案
           </Typography>
           <Typography
             variant="lead"
             className="l:px-20 text-blue-gray-800"
-          >Discover the perfect solution tailored to elevate and optimize your store'
+          >量身定制的完美AI.解决方案，以提升和優化您的服務。
           </Typography>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

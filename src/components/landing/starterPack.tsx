@@ -8,20 +8,20 @@ export function ContentSectionOne() {
         <div className="container mx-auto grid items-center lg:grid-cols-2">
           <div className="row-start-2 mt-12 lg:row-auto lg:mt-0 lg:pr-12">
             <Typography variant="h2" color="blue-gray" className="mb-6">
-             EI Autoshop: AI-driven technology monitors and analyzes customer behavior in real-time
+             Autoshop:AI驅動技術即時監控分析客戶行為，實現自主零售解決方案
             </Typography>
             <Typography variant="lead" color="gray" className="mb-12">
-            Everything Intelligence utilizes computer vision and AI technologies to monitor and analyze customer in-store behavior and metrics. This enables our retail clients to easily access and track crucial information, facilitating efficient monitoring of their stores.
+             萬智科技利用電腦視覺和人工智慧技術監控和分析顧客店內行為和數據指標。這使我們的零售客戶能夠輕鬆獲取和追蹤關鍵訊息，促進其店舖的高效監控。
             </Typography>
             <div className="inline-flex flex-wrap gap-3">
               <a href="https://wa.link/xbzr1f">
               <Button variant="outlined" size="lg">
-                get in touch
+                聯絡我們
               </Button>
               </a>
               <a href="/process.pdf" download="process.pdf">
               <Button variant="outlined" size="lg">
-              Our Process
+                流程
              </Button>
              </a>
             </div>
