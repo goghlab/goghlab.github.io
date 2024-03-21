@@ -40,27 +40,27 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
 const members = [
   {
     "img": "/autoshop01.png",
-    "name": "Fully Automated Store",
-    "title": "Secure your store",
-    "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
+    "name": "全自動化的智能商店",
+    "title": "提升效率，實現零摩擦的購物體驗",
+    "desc": "體驗一個完全自動化的商店，從結帳到庫存管理無縫銜接，提升效率，帶來零摩擦的購物體驗。"
   },
   {
     "img": "/QRcode.png",
-    "name": "Easy Entrance with QR Code",
-    "title": "Easily Accessable APP with QR Code Entrance",
-    "desc": "Experience a fully automated store with seamless processes, from checkout to inventory management, enhancing efficiency and delivering a frictionless shopping experience."
+    "name": "輕鬆入場，掃描 QR 碼",
+    "title": "透過應用程式以 QR 碼輕鬆入場",
+    "desc": "使用者透過掃描應用程式中個人的 QR 碼，輕鬆進出及結帳支付，實現方便的進出和結帳支付。"
   },
   {
     "img": "/dashboard.png",
-    "name": "All-in-one platform",
-    "title": "Secure your store",
-    "desc": "User-friendly 24/7 store monitoring through an intuitive dashboard, ensuring ease of use for comprehensive oversight and timely decision-making"
+    "name": "一站式平台",
+    "title": "便利商店監控",
+    "desc": "透過直觀的儀表板，24/7友善的商店監控，確保全面監督和及時決策的便利使用。"
   },
   {
     "img": "/facedetect.png",
-    "name": "Face Detection",
-    "title": "Secure your store",
-    "desc": "We harness the power of AI technology to detect and prevent fraudulent activities."
+    "name": "人臉檢測",
+    "title": "保障您的商店",
+    "desc": "利用人工智能技術的力量來檢測和防止欺詐活動。"
   },
 ];
 
@@ -70,17 +70,16 @@ export function TeamSectionOne() {
       <div className="container mx-auto">
         <div className="mb-24 text-center">
           <Typography color="dark" className="mb-2 !font-semibold text-lg">
-            We leverage the latest 
+            我們利用最新的 
           </Typography>
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            AI. Computer Vision technology
+            人工智慧。電腦視覺技術
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto lg:w-8/12 lg:px-20 text-blue-gray-800"
           >
-            This is the paragraph where you can write more details about your
-            team. Keep you user engaged by providing meaningful information.
+            我們最新的解决方案AutoShop，利用人工智慧和電腦視覺技術，實現了無摩擦結帳體驗。透過自動識別和追踪商品，使購物更加便捷，提升了顧客的購物體驗。
           </Typography>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

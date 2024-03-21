@@ -14,7 +14,7 @@ export function FooterOne() {
           <div className="flex flex-wrap items-end justify-center gap-8 md:justify-between">
             <div className="text-center md:text-left">
               <Typography variant="h4" className="mb-6">
-                Everything Inteligence
+                Everything Inteligence 萬智科技
               </Typography>
               <ul className="flex flex-wrap items-center justify-center md:justify-start">
                 {links.map((link, idx) => (
@@ -45,7 +45,7 @@ export function FooterOne() {
           </div>
           <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
             <Typography color="gray" className="text-center font-normal">
-              &copy; {currentYear} Everything Inteligence, All rights reserved.
+              &copy; {currentYear} 萬智科技 Everything Inteligence 2024 All rights reserved.
             </Typography>
 
             <ul className="flex items-center">
