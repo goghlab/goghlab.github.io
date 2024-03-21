@@ -32,14 +32,14 @@ export function HeroSectionTwo() {
                 variant="small"
                 className="mr-3 rounded-md bg-white py-0.5 px-3 font-medium text-black"
               >
-                E.I.
+                Everything Intelligence 萬智科技 
               </Typography>
               <Typography
                 color="white"
                 variant="small"
                 className="!flex !items-center !font-semibold"
               >
-                Advance Retail Automation Solution
+                AI.人工智能零售自動化解決方案專家
                 <ArrowSmallRightIcon
                   className="ml-1.5 h-4 w-4"
                   strokeWidth={3}
@@ -51,15 +51,17 @@ export function HeroSectionTwo() {
               color="white"
               className="mb-8 leading-tight lg:text-4xl"
             >
-              E.I.-AutoShop 
+              E.I.-AutoShop 人工智能無人商店
             </Typography>
             <Typography variant="lead" className="lg:pr-20 text-white">
-              "Seamless Shopping: Effortlessly Transforming Desires into Delivered Pleasures."
+              "體驗AutoShop的購物未來：無需排隊，自助結帳 - 隨取隨走！."
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
-              <Button color="blue" className="flex items-center">
-                User Log In
-              </Button>
+              <a href="/login"> {/* Add your login page URL here */}
+                <Button color="blue" className="flex items-center">
+                  用戶登入
+                </Button>
+              </a>
             </div>
           </div>
         </div>
