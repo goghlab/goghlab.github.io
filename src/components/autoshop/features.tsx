@@ -78,7 +78,7 @@ export function FeatureSectionOne() {
   return (
     <section className="py-28 px-4">
     
-    <Typography variant="h2" color="blue-gray" className="mb-4 text-center">
+    <Typography variant="h3" color="blue-gray" className="mb-4 text-center">
           特點
         </Typography>
       <div className="container mx-auto mb-20 text-center">
@@ -86,11 +86,11 @@ export function FeatureSectionOne() {
         E.I.AutoShop：終極無摩擦購物解決方案
         </Typography>
         <Typography
-          variant="lead"
-          className="mx-auto w-full px-4 text-blue-gray-800 md:w-10/12 lg:w-7/12 lg:px-8"
-        >
-          透過我們的無摩擦結帳，簡化您的購物流程：迅速、安全的交易，最小化延誤，確保所有人都能享受無縫、無煩惱的購物體驗。
-        </Typography>
+  variant="lead"
+  className="mx-auto w-full px-4 text-sm text-blue-gray-800 md:w-10/12 lg:w-7/12 lg:px-8"
+>
+  透過我們的無摩擦結帳，簡化您的購物流程：迅速、安全的交易，最小化延誤，確保所有人都能享受無縫、無煩惱的購物體驗。
+</Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-20 md:grid-cols-2 lg:grid-cols-3">
         {features.map(({ icon, title, description }) => (

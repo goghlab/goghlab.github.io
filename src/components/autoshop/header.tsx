@@ -45,17 +45,18 @@ export function HeroSectionTwo() {
                   strokeWidth={3}
                 />
               </Typography>
+              
             </div>
             <Typography
-              variant="h1"
+              variant="h3"
               color="white"
-              className="mb-8 leading-tight lg:text-4xl"
+              className="mb-8 leading-tight lg:text-2xl"
             >
               AutoShop 智能商店
             </Typography>
-            <Typography variant="lead" className="lg:pr-18 text-white">
-              "體驗AutoShop的購物未來：無需排隊，自助結帳 - 隨取隨走！."
-            </Typography>
+            <Typography variant="lead" className="lg:pr-18 text-base text-white">
+  "體驗AutoShop的購物未來：無需排隊，自助結帳 - 隨取隨走！."
+</Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="/login"> {/* Add your login page URL here */}
                 <Button color="blue" className="flex items-center">

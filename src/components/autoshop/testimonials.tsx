@@ -20,7 +20,7 @@ export function TestimonialSectionTwo() {
                 className="mb-8 w-36"
               />
               <Typography
-                variant="h5"
+                variant="h6"
                 color="white"
                 className="mb-10 font-medium leading-normal"
               >
