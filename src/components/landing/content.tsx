@@ -21,13 +21,11 @@ export function HeroSectionFour() {
         ></div>
           <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover  "></span>
           <Typography
-            variant="h5"
+            variant="h8"
             color="white"
-            className="mb-4 !leading-tight lg:text-5xl z-20"
+            className="mb-4 !leading-tight lg:text-2xl z-20"
           >
-           利用人工智能計算機視覺
-           <br></br>
-           促進智慧購物體驗。
+           利用人工智能計算促進智慧購物體驗。
           </Typography>
           <Typography
             variant="lead"

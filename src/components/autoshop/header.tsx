@@ -32,14 +32,14 @@ export function HeroSectionTwo() {
                 variant="small"
                 className="mr-3 rounded-md bg-white py-0.5 px-3 font-medium text-black"
               >
-                 萬智科技 
+                 NEW 
               </Typography>
               <Typography
                 color="white"
                 variant="small"
                 className="!flex !items-center !font-semibold"
               >
-                AI.人工智能零售自動化解決方案專家
+                AI.人工智能零售自動化解決方案
                 <ArrowSmallRightIcon
                   className="ml-1.5 h-4 w-4"
                   strokeWidth={3}

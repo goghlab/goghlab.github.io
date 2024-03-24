@@ -22,15 +22,15 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
           className="h-full w-full object-cover object-top"
         />
       </CardHeader>
-      <Typography variant="h4" color="black" className="mb-1">
+      <Typography variant="h5" color="black" className="mb-1">
         {name}
       </Typography>
       <Typography color="black" className="mb-3 font-normal">
         {title}
       </Typography>
-      <Typography color="black" className="mb-4 font-normal">
-        {desc}
-      </Typography>
+      <Typography color="black" className="mb-4 text-sm font-normal">
+  {desc}
+</Typography>
       <div className="flex items-center">
       </div>
     </Card>
@@ -69,15 +69,15 @@ export function TeamSectionOne() {
     <section className="py-8 px-8 lg:py-16">
       <div className="container mx-auto">
         <div className="mb-24 text-center">
-          <Typography color="dark" className="mb-2 !font-semibold text-lg">
+          <Typography color="dark" className="mb-2 !font-semibold text-sm">
             我們利用最新的 
           </Typography>
-          <Typography variant="h3" color="blue-gray" className="mb-4">
+          <Typography variant="h5" color="blue-gray" className="mb-4">
             人工智慧。電腦視覺技術
           </Typography>
           <Typography
-            variant="lead"
-            className="mx-auto lg:w-8/12 lg:px-20 text-blue-gray-800"
+            variant="body2"
+            className="mx-auto lg:w-8/12 lg:px-12 text-blue-gray-800"
           >
             我們最新的解决方案AutoShop，利用人工智慧和電腦視覺技術，實現了無摩擦結帳體驗。透過自動識別和追踪商品，使購物更加便捷，提升了顧客的購物體驗。
           </Typography>

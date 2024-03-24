@@ -29,7 +29,7 @@ function CategoriesCard({ img, category, href }: CategoriesCardPropsType) {
       </CardHeader>
       <CardBody className="relative py-14 px-6 md:px-12">
         <Typography
-          variant="h4"
+          variant="h6"
           color="white"
           className="mb-6 font-medium leading-[1.5]"
         >
@@ -44,12 +44,12 @@ function CategoriesCard({ img, category, href }: CategoriesCardPropsType) {
 const categories = [
   {
     img: "/ei-autoshop.png",
-    category: "AutoShop",
+    category: "AutoShop智能商店",
     href: "/autoshop",
   },
   {
     img: "/ei-box.png",
-    category: "VendingBox",
+    category: "AutoBox智能營銷櫃",
     href: "/box",
   },
 ];
@@ -59,14 +59,12 @@ export function TeamSectionOne() {
     <section className="py-8 px-8 lg:py-16">
       <div className="container mx-auto">
         <div className="mb-24 w-1/2">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography variant="h4" color="blue-gray" className="mb-4">
            萬智智能零售方案
           </Typography>
-          <Typography
-            variant="lead"
-            className="l:px-20 text-blue-gray-800"
-          >量身定制的完美AI.解决方案，以提升和優化您的服務。
-          </Typography>
+          <Typography variant="lead" className="l:px-20 text-base text-blue-gray-800">
+          量身訂製的完美AI解決方案旨在提升和優化您的服務。利用最新的人工智慧和電腦視覺技術，我們的解決方案能夠根據您的需求和業務模式進行客製化，從而實現高效營運和卓越客戶體驗。這將為您的業務帶來更高的效率、更低的成本以及更廣泛的市場競爭優勢。
+</Typography>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {categories.map((props, key) => (
