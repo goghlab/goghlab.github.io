@@ -14,7 +14,7 @@ export function FooterOne() {
           <div className="flex flex-wrap items-end justify-center gap-8 md:justify-between">
             <div className="text-center md:text-left">
               <Typography variant="h4" className="mb-6">
-                Everything Inteligence 萬智科技
+                萬智科技
               </Typography>
               <ul className="flex flex-wrap items-center justify-center md:justify-start">
                 {links.map((link, idx) => (

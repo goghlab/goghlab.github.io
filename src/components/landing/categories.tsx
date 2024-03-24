@@ -29,7 +29,7 @@ function CategoriesCard({ img, category, href }: CategoriesCardPropsType) {
       </CardHeader>
       <CardBody className="relative py-14 px-6 md:px-12">
         <Typography
-          variant="h6"
+          variant="h4"
           color="white"
           className="mb-6 font-medium leading-[1.5]"
         >
