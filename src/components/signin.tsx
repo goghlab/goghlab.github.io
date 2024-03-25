@@ -1,70 +1,57 @@
 import ThemeProvider from "./theme-provider";
-import Navbar from "./defaultNavbar"
+import Navbar from "./Navbar"
  
-import { Typography, Input, Checkbox, Button } from "@material-tailwind/react";
+import { Typography, Input, Button } from "@material-tailwind/react";
 
-export function SignIn() {
+export function SignUp() {
   return (
     <ThemeProvider>
       <Navbar />
-      <section className="grid h-screen items-center lg:grid-cols-2">
-        <div className="my-auto p-8 text-center sm:p-10 md:p-20 xl:px-32 xl:py-24">
+      <section className="grid h-screen items-center p-8">
+        <div className="text-center">
           <Typography variant="h3" color="blue-gray" className="mb-2">
-            Welcome back
+           歡迎回來
           </Typography>
-          <Typography className="font-normal mb-16 text-blue-gray-800">
-            Welcome back, please enter your details.
+          <Typography className="font-normal mb-12 text-blue-gray-800">
+           輸入您的電子郵件和密碼以登入。  
           </Typography>
-
           <form action="#" className="mx-auto max-w-[24rem] text-left">
-            <div className="mb-4">
-              <Input color="dark" size="lg" label="Email" type="email" name="email" />
-            </div>
-            <div className="mb-4">
-              <Input color="dark" size="lg" label="Password" type="password" name="password" />
-            </div>
-            <div className="flex flex-wrap items-center justify-between gap-2">
-              <div className="-ml-3">
-                <Checkbox
-                  color="blue-gray"
-                  label="Subscribe to newsletter"
-                  labelProps={{
-                    className: "font-normal",
-                  }}
-                />
-              </div>
-              <Typography as="a" href="#" color="blue-gray" className="font-medium">
-                Forgot password
+            <Input color="black" size="lg" label="Email" type="email" name="email" />
+            <br></br>
+            <Input color="black" size="lg" label="Password" type="Password" name="Password" />
+            <Button color="blue" size="lg" className="mt-4" fullWidth>
+              立即登記
+            </Button>
+            <div className="my-6 flex w-full items-center gap-2">
+              <hr className="w-full bg-blue-gray-50" />
+              <Typography
+                variant="small"
+                color="blue-gray"
+                className="font-medium opacity-50"
+              >
+                或
               </Typography>
+              <hr className="w-full bg-blue-gray-50" />
             </div>
-            <Button variant="outlined" size="lg" className="mt-6" fullWidth>
-              sign in
-            </Button>
-            <Button
-              variant="outlined"
-              color="blue-gray"
-              size="lg"
-              className="mt-4 flex h-12 items-center justify-center gap-2"
-              fullWidth
+            
+            <Typography
+              color="gray"
+              className="mt-6 text-center font-normal"
             >
-              <img
-                src="/astro-launch-ui/logos/logo-google.png"
-                alt="google"
-                className="-mt-0.5 h-7 w-7"
-              />
-              sign in with google
-            </Button>
+              已有帳戶？{" "}
+              <a
+                 href="/signup"
+                className="font-medium text-dark transition-colors hover:text-blue-700"
+              >
+                立即注册
+              </a>
+            </Typography>
           </form>
         </div>
-        <img
-          src="https://images.unsplash.com/photo-1613125700782-8394bec3e89d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW91bmF0aW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-          alt="background image"
-          className="hidden h-screen w-full object-cover lg:block"
-        />
       </section>
-    
     </ThemeProvider>
   );
 }
 
-export default SignIn;
+export default SignUp;
+
