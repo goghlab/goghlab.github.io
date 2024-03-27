@@ -58,7 +58,7 @@ export function HeroSectionTwo() {
   "體驗AutoShop的購物未來：無需排隊，自助結帳 - 隨取隨走！."
 </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
-              <a href="/signup"> {/* Add your login page URL here */}
+              <a href="https://autoshopwebapp-ph3o537rv-goghlabs-projects.vercel.app/myqrCode"> {/* Add your login page URL here */}
                 <Button color="blue" className="flex items-center">
                   用戶登入
                 </Button>
