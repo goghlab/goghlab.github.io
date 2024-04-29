@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import data from "../../public/data.json";
 import HeaderBox from "../components/privacy/header"
 import FeaturesBox from "../components/box/features"
-import TeamBox from "../components/exit/privacy"
+import TeamBox from "../components/exit/team"
 import TestimonialABox from "../components/box/testimonials"
 import FooterBox from "../components/privacy/footer"
 ---
@@ -11,7 +11,7 @@ import FooterBox from "../components/privacy/footer"
 <Layout title="exit">
 	<main>
     {/*<HeaderBox client:only="react" /> */}
-     {/* <TeamBox client:only="react" />*/} 
+     <TeamBox client:only="react" />  
     {/*<FooterBox client:only="react" /> */}
     {/* <FeaturesAbout client:only="react" /> */}
     {/* <TestimonialAbout client:only="react" /> */}
