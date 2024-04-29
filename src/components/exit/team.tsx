@@ -1,4 +1,5 @@
 import React from "react";
+import QRCode from "qrcode.react";
 import {
   Card,
   CardHeader,
@@ -46,47 +47,12 @@ export function TeamSectionOne() {
 
         <div className="mb-24">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            Data Privacy Statement
+            QR Code
           </Typography>
 
-          <Typography
-            variant="lead"
-            className="mx-auto lg:w-8/12 lg:px-20 text-blue-gray-800 text-left"
-          >
-            <p>
-              At [Your Company], we prioritize your privacy and data protection. Here's a detailed overview of how we handle your data in our auto checkout solution, inspired by the efficiency of Amazongo:
-            </p>
-
-            <ul className="list-disc pl-6">
-              <li>
-                <Typography variant="small" className="font-bold">
-                  Collection of Essential Information:
-                </Typography>{" "}
-                We only collect essential information necessary for the seamless functionality of our auto checkout system.
-              </li>
-
-              <li>
-                <Typography variant="small" className="font-bold">
-                  Secure Storage and Processing:
-                </Typography>{" "}
-                Your data is securely stored and processed with the utmost care to ensure confidentiality and protection.
-              </li>
-
-              <li>
-                <Typography variant="small" className="font-bold">
-                  No Sharing of Personal Information:
-                </Typography>{" "}
-                We do not share your personal information with third parties without your explicit consent, ensuring your data remains private.
-              </li>
-
-              <li>
-                <Typography variant="small" className="font-bold">
-                  Priority on Data Security:
-                </Typography>{" "}
-                Our systems are designed with a primary focus on data security, ensuring the continuous protection of your privacy.
-              </li>
-            </ul>
-          </Typography>
+          <div className="mx-auto lg:w-8/12 lg:px-20">
+            <QRCode value="https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls" />
+          </div>
         </div>
       </div>
     </section>
