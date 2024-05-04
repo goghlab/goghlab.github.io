@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import QRCode from "qrcode.react";
 import {
   Card,
@@ -38,6 +38,16 @@ function TeamCard({ img, name, title, desc }: TeamCardPropsType) {
 }
 
 export function TeamSectionOne() {
+  const [showQRCode, setShowQRCode] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowQRCode(false); // Hide the QR code after 30 seconds
+    }, 30000); // 30 seconds
+
+    return () => clearTimeout(timer); // Clean up the timer when component unmounts
+  }, []);
+
   return (
     <section className="py-8 px-8 lg:py-16">
       <div className="container mx-auto">
@@ -45,13 +55,14 @@ export function TeamSectionOne() {
           {/* Members cards go here */}
         </div>
 
-        <div className="mb-24">
+        <div className="mb-24 text-center"> {/* Center align text */}
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            QR Code
+            謝謝惠顧, 
+            請掃QR Code出店
           </Typography>
 
-          <div className="mx-auto lg:w-8/12 lg:px-20">
-            <QRCode value="https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls" />
+          <div className="mx-auto lg:w-1/2 lg:px-20 text-center"> {/* Center align QR code */}
+            {showQRCode && <QRCode value="DNSxRqlLuIQmYzfZHlqD" size={256} />} {/* Set QR code size */}
           </div>
         </div>
       </div>
